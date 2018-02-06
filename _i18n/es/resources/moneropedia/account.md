@@ -5,11 +5,15 @@ terms: ["account", "accounts", "wallet", "wallets"]
 summary: "similar in function to a bank account, contains all of your sent and received transactions"
 ---
 
-### The Basics
+### Los Basicos
 
 Those familiar with Monero's predecessors will be more familiar with the term *wallet* to describe this. In Monero we call this an account, and it is a private account owned and operated by a Monero user.
 
 Your account contains all of the Monero @transactions you have sent and received. Your account balance is a sum of all the Monero you've received, less the Monero you've sent. When using Monero you may notice that your account has two balances, a locked and an unlocked balance. The unlocked balance contains funds that can be spent immediately, and the locked balance contains funds that you can't spend right now. You may receive a transaction that has an @unlock-time set, or you may have sent some Monero and are waiting for the @change to come back to your wallet, both situations that could lead to those funds being locked for a time.
+
+<Los quien estén familiarizados con los predecesores de Monero estarán más familiarizados con el término * billetera * para describir esto. En Monero llamamos esto una cuenta, y es una cuenta privada que pertenece y es operada por un usuario de Monero.
+
+Su cuenta contiene todas las transacciones de Monero que has enviado y recibido. El saldo de su cuenta es una suma de todo el Monero que has recibido, menos el Monero que has enviado. Al usar Monero, vas a notar que su cuenta tiene dos saldos, un saldo bloqueado y otro desbloqueado. El saldo desbloqueado contiene fondos que puedes gastar inmediato, y el saldo bloqueado contiene fondos que no puedes gastar en ese momento. Puede recibir una transacción que tenga un conjunto de @desbloqueo de tiempo, o puede haber enviado Monero y está esperando que @change vuelva a su billetera, en situaciones ambas que podrían llevar a que esos fondos se bloqueen por un tiempo.>
 
 A key difference between traditional electronic currency and Monero is that your account resides only under your control, normally on your computer, and cannot be accessed by anyone else if you [practice good security](#practicing-good-security).
 
